@@ -1,0 +1,114 @@
+PREDLOG PROJEKTA
+Projekat SmartSmile ima za cilj razvoj web aplikacije koja digitalizuje rad stomatoloških ordinacija i
+unapređuje komunikaciju između pacijenata i stomatologa.
+Aplikacija omogućava jednostavno zakazivanje, praćenje i vođenje evidencije o stomatološkim
+pregledima i terapijama kroz intuitivno i bezbedno online okruženje.
+
+OPIS PROJEKTNOG ZADATKA
+Cilj aplikacije je da omogući potpuno upravljanje procesima u ordinaciji, čime se štedi vreme osoblja 
+i pacijenata, smanjuje mogućnost grešaka i povećava efikasnost rada.
+
+Glavne funkcionalnosti aplikacije uključuju:
+- Zakazivanje i upravljanje terminima:
+Pacijenti mogu pregledati dostupne termine kod stomatologa, zakazati pregled, otkazati ili promeniti
+termin.
+Stomatolozi mogu definisati svoj raspored dostupnosti, odobravati ili odbijati zahteve za termine, i
+pregledati listu zakazanih pregleda.
+Pregledi u kalendaru su prikazani sa statusima: zakazano, završeno ili otkazano, što omogućava
+jednostavno praćenje aktivnosti.
+- Vođenje evidencije pacijenata i tretmana:
+Svaki pacijent ima sopstveni profil sa istorijom prethodnih poseta, terapija i zabeleženih nalaza.
+Stomatolozi mogu unositi dijagnoze, terapije i beleške za svaki pregled, što omogućava detaljan uvid u
+zdravstvenu istoriju pacijenata.
+- Profil stomatologa
+Svaki stomatolog ima svoj profil u okviru sistema, koji sadrži osnovne informacije o njegovoj
+specijalizaciji, radnom iskustvu i kontakt podacima.
+Pacijenti mogu pregledati profil stomatologa pre zakazivanja termina, što omogućava informisaniji
+izbor lekara.
+Profil takođe prikazuje prosečnu ocenu stomatologa, kao i komentare koje su ostavili pacijenti nakon
+pregleda.
+Stomatolozi mogu ažurirati svoje podatke, dodavati biografiju i prikaz usluga koje pružaju.
+- Pretraga, filtriranje i statistika:
+Doktori mogu pretraživati pacijente po imenu, datumu poslednjeg pregleda ili vrsti tretmana.
+Filtriranje termina po datumu, statusu ili stomatologu omogućava brzo pronalaženje potrebnih
+informacija.
+Statistički prikazi aktivnosti ordinacije uključuju broj pregleda, tipove tretmana i zauzetost termina,
+čime se olakšava planiranje i organizacija rada.
+- Ocenjivanje stomatologa i usluga:
+Pacijenti će imati mogućnost da ocene stomatologa nakon pregleda, daju komentare i ocene usluge.
+Ocenjivanje omogućava stomatolozima praćenje zadovoljstva pacijenata i unapređenje kvaliteta
+usluge.
+
+Tehnološki okvir projekta:
+Frontend: React – za dinamičan i responzivan interfejs
+Backend: Django REST Framework – za rad sa podacima, kreiranje API-ja i logiku poslovanja
+Baza podataka: PostgreSQL – za efikasno čuvanje podataka pacijenata i termina
+
+DOSEG PROBLEMA KOJI ĆE BITI REŠAVAN
+Trenutno mnoge stomatološke ordinacije vode evidenciju pacijenata ručno ili u nepovezanim
+softverima, što može dovesti do grešaka, preklapanja termina i gubitka informacija.
+Projekat rešava sledeće probleme:
+Digitalizacija procesa zakazivanja i evidencije pregleda
+Jednostavan pregled istorije pacijenata
+Bolja organizacija resursa i osoblja
+Sigurno čuvanje podataka u bazi
+
+DEFINISANJE KORISNIKA SISTEMA
+Sistem podržava tri tipa korisnika, sa različitim ulogama i privilegijama:
+1. Pacijent
+Opis: Krajnji korisnik koji dolazi u ordinaciju radi stomatoloških pregleda.
+Prava i funkcionalnosti:
+Kreiranje i uređivanje naloga
+Pregled dostupnih termina kod stomatologa
+Zakazivanje, otkazivanje i izmena termina
+Pregled istorije prethodnih pregleda i dobijenih terapija
+Ocenjivanje stomatologa i usluge, ostavljanje komentara
+
+2. Stomatolog (Doktor)
+Opis: Zaposleni u ordinaciji koji obavlja preglede i vodi evidenciju pacijenata.
+Prava i funkcionalnosti:
+Definisanje i uređivanje rasporeda dostupnosti
+Pregled liste zakazanih termina
+Unošenje nalaza, terapija i beleški za svaki pregled
+Pregled istorije pacijenata i statistika vezane za sopstvene termine i tretmane
+
+3. Administrator
+Opis: Administrator ima najviši nivo pristupa sistemu i odgovoran je za održavanje bezbednosti i
+pravilno funkcionisanje aplikacije. On ima potpuni pregled i kontrolu nad svim korisnicima i
+aktivnostima u sistemu.
+Prava i funkcionalnosti:
+Odobravanje ili deaktivacija korisničkih naloga pacijenata i stomatologa
+Pregled i ažuriranje podataka o korisnicima
+Nadzor nad aktivnostima u sistemu
+
+FORMIRANJE TIMA
+Sastav tima omogućava pokrivanje svih aspekata razvoja: frontend, backend, testiranje i koordinaciju.
+U timu su:
+Prof. dr Edin Dolićanin,
+Doc. dr Aldina Avdić,
+Student Edina Maljevac
+
+OSNOVNI CILJ TIMA
+Razviti funkcionalnu, modernu i intuitivnu aplikaciju za stomatološke ordinacije
+Unaprediti veštine u full-stack razvoju 
+Razviti timsku saradnju i sposobnost organizacije rada
+
+DEFINISANJE RADA TIMA
+Tim će raditi svakodnevno kako bi se projekat razvijao kontinuirano i efikasno. Radni dani tokom
+nedelje (ponedeljak–petak) će biti intenzivniji, dok će vikendi biti rezervisani za kraće radne zadatke.
+Dnevna organizacija rada:
+Ponedeljak – petak: svaki član tima radi 3–4 sata dnevno. Fokus je na razvoju funkcionalnosti,
+implementaciji zadataka i rešavanju problema.
+Subota – nedelja: rad po 1–2 sata dnevno, uglavnom za pregled i testiranje urađenog, manje hitne
+zadatke i planiranje naredne nedelje.
+
+PLANIRANO ODSUSTVO ČLANOVA TIMA
+Planirano odsustvo članova tima definisano je u slučaju praznika ili nepredviđenih ličnih obaveza.
+Članovi tima će se unapred dogovoriti i obavestiti ostatak tima ukoliko
+dođe do odsustva, kako bi se zadaci i dnevni raspored prilagodili.
+
+NAČINI KOMUNIKACIJE
+Kanali komunikacije:
+Sastanci: online (Google Meet)
+E-mail: za izveštaje i konsultacije
+GitHub: praćenje zadataka i statusa razvoja projekta
